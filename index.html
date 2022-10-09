@@ -52,21 +52,21 @@
 
       <form action="/action_page.php">
         <label for="fname">First name:</label><br>
-        <input type="text" value="First name"><br>
+        <input type="text" id="fname" value="First name"><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" value="First name"><br>
+        <input type="text" id="lname" value="First name"><br>
         <input type="submit" value="Submit">
       </form> 
       
       <form action="/action_page.php">
         <input type="checkbox">
-        <label for="vehicle1"> Male</label><br>
-        <input type="checkbox">
-        <label for="vehicle2"> Female</label><br>
-        <input type="submit" value="Submit">
+        <label for="male"> Male</label><br>
+        <input type="checkbox" id="male">
+        <label for="female"> Female</label><br>
+        <input type="submit" id="female">
       </form>
       <label for="start">Start date:</label>
-      <input type="date" id="s" name="birthday"
+      <input type="date" id="start" name="birthday"
        value="2022-08-12"
        min="2000-08-12" max="2022-11-25">
 
