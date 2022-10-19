@@ -1,0 +1,175 @@
+/* this file will be linked to index.html */
+header {
+    color: blue;
+    text-decoration: green wavy underline;
+
+}
+
+body {
+    color: black;
+    font-size: 17px
+}
+
+h1 {
+    background-color: #efefef;
+}
+
+h2 {
+    
+    background-color: rgb(141, 51, 51)
+}
+
+h3 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: hsl(50,100,50)
+}
+
+.box-1 {
+    background: pink;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 10px;
+}
+
+.box-2 {
+    color: blue;
+    margin: 40px 150px 0px;
+    border-style: solid;
+    border-width: .05in;
+    border-radius: .5cm;
+    border-color: lightblue;
+
+}
+
+.box-3 {
+    margin: auto
+}
+
+.picture_text {
+    text-align: center;
+    color: violet;
+}
+
+.middle_par {
+    max-width: 1000px;
+    min-width: none;
+}
+
+.ending_text {
+    padding-left: 4.3cm;
+    text-align: center;
+    height: 500px;
+    font-size: 21px;
+    width: 50em;
+}
+
+.pythoncolor1 {
+    background-color: blue;
+    display: inline;
+}
+.pythoncolor2 {
+    background-color: pink;
+    display: inline;
+}
+.pythoncolor3 {
+    background-color: greenyellow;
+    display: inline;
+}
+.pythoncolor4 {
+    background-color: violet;
+    display: inline;
+}
+
+.inline_block1 {
+    background-color: blue;
+    display: inline-block;
+    width:23%;
+}
+.inline_block2 {
+    background-color: pink;
+    display: inline-block;
+    width:23%;
+}
+.inline_block3 {
+    background-color: greenyellow;
+    display: inline-block;
+    width:23%;
+}
+.inline_block4 {
+    background-color: violet;
+    display: inline-block;
+    width:23%;
+}
+
+
+/*hover for the links to other languages */
+a:hover {
+    background: pink;
+}
+a:active {
+    background: yellow;
+}
+
+/* boxes */
+.python_boxes {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+  }
+   
+#two {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;
+  }
+  
+
+.python_floating {
+    font-size: 30px;
+    position: sticky;
+    text-align: center;
+    top: 30px;
+    left: 90%;
+    background: yellow;
+    width: 100px;
+}
+
+* {
+    max-width: 10000px;
+    max-height: 10000px;
+}
+
+
+/* grid container */
+.flexboxcontainer {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    height: 600;
+}
+ 
+.flexboxcontainer > div {
+    background-color: lightcoral;
+    min-width: 40px;
+    margin: 10px;
+    padding:20px;
+    font-size: 20px;
+}
+ 
+ 
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 150px, 200px;
+    grid-auto-rows: minmax(150px,150px);
+    grid-gap: 20px;
+}
